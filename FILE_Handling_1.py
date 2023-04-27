@@ -3,5 +3,6 @@
 #List the contents of numbers.txt
 with open('numbers.txt', 'r') as f:
     for line in f:          #List all the contents of numbers.txt
- 
+        mod_num = int(line)%2   #Determine if the number is even or odd
+        
 
