@@ -10,3 +10,5 @@ with open('numbers.txt', 'r') as f:
         else:
             with open('odd.txt', 'a') as wf:   #Append the contents of line to odd.txt if it is odd number.
                 wf.write(line)
+
+#Contents of numbers.txt is successfully transported. If it is even, it is transferred to even.txt. If it is an odd number, it is transferred to odd.txt.
