@@ -2,6 +2,6 @@
 
 #List the contents of numbers.txt
 with open('numbers.txt', 'r') as f:
-    for line in f:
-        print(line)       
+    for line in f:          #List all the contents of numbers.txt
+ 
 
